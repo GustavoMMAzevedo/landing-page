@@ -2,8 +2,7 @@ Body {
     margin: 0;
 }
 
-.header {
-
+.header, .hero{
     background-color: #1F2937;
     display: flex;
     align-items: center;
@@ -31,4 +30,20 @@ ul {
     margin: 0;
     display: flex;
     gap: 16px;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex; 
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
 }
