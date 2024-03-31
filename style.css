@@ -2,7 +2,7 @@ Body {
     margin: 0;
 }
 
-.header, .hero{
+.header {
     background-color: #1F2937;
     display: flex;
     align-items: center;
@@ -35,6 +35,8 @@ ul {
 .hero {
     background-color: #1F2937;
     display: flex; 
+    justify-content: center;
+    padding: 30px
 }
 
 .hero-main {
@@ -46,4 +48,31 @@ ul {
 .hero-second {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-left {
+    border: 1px solid white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+    align-self: flex-start;
+}
+
+.hero-right {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+
 }
